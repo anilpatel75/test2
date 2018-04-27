@@ -1,0 +1,14 @@
+<table class="table table-striped">
+   <tr>
+     <th>Title</th>
+     <th>Description</th>
+   </tr>
+   <tr *ngFor="let item of movieData ; let i=index">
+     <td >{{item.title}}</td>
+     <td>{{item.opening_crawl}}</td>
+   </tr>
+   <button routerLink="/"  class="btn btn-info" >Back</button>
+  </table>
+
+
+
